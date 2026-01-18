@@ -7,7 +7,7 @@ public class PostgresDB implements IDB {
     @Override
     public Connection getConnection() {
         // Убедись, что имя базы 'oop_assignment' и пароль '0000' верны
-        String connectionUrl = "jdbc:postgresql://localhost:5432/oop_assignment";
+        String connectionUrl = "jdbc:postgresql://localhost:5432/AppointmentBookingSystem";
         try {
             Class.forName("org.postgresql.Driver");
             return DriverManager.getConnection(connectionUrl, "postgres", "0000");

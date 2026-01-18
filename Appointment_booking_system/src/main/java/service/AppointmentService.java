@@ -55,4 +55,3 @@ public class AppointmentService {
         return allSlots;
     }
 }
--
